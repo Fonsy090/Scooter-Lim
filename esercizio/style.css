@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+/* Body */
+
+#corpo{
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding: 5%;
+    
+    
+}
+
+
+/* div cotenitore */
+
+#contenitore{
+    background-color: rgba(0, 0, 0, 70%);
+    margin: auto;
+    border-radius: 20px;
+    padding: 8%;
+    width: 80%;
+    
+    
+}
+    
+
+/* Header */
+
+.testata{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+header img{
+    width: 200px;
+}
+
+header h1{
+    color: #66ff00;
+}
+
+/* Nav */
+
+.Invio{
+    background-color: #66ff00;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Main */
+
+main > div{
+    margin-top: 20px;
+}
+
+/* div1 */
+.separa{
+    padding-left: 5px;
+}
+
+/* div2 */
+div  h2{
+    display: inline-block;
+    color: white;
+    
+}
+
+/* Paragrafo */
+.primo{
+    
+    color: rgb(243, 237, 237);
+    
+}
+
+/* Stato di carica batteria */
+#rigagialla{
+    height: 20px;
+    border-radius: 5px;
+    border: 10px solid goldenrod;
+    background-color: goldenrod;
+    width: 40%;
+    
+}
+
+#rigaverde{
+    height: 20px;
+    border-radius: 5px;
+    border: 10px solid rgb(21, 205, 21);
+    background-color: rgb(21, 205, 21);
+    width: 60%;
+    
+}
+
+#rigarossa{
+    height: 20px;
+    border-radius: 5px;
+    border: 10px solid rgb(218, 69, 69);
+    background-color: rgb(218, 69, 69);
+    width: 20%;
+    
+
+}
+
+
